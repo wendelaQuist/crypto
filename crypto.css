@@ -8,19 +8,23 @@
 .container{
     height: 100vh;
     width: auto;
-    background-color: #0F042B;
+    background: url(./Background-01.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     color: #fff;
 }
 
 nav{
     width: 100vw;
-    padding: 20px 5%;
+    padding: 15px 5%;
     display: flex;
     align-items: center;
+    background-color: #171923;
 }
 
 .logo{
-    width: 50px;
+    width: 65px;
     cursor: pointer;
 }
 
@@ -90,6 +94,7 @@ nav .btn{
     margin: 0 15px;
     color: #ff960b;
     border: 1px solid #fff;
+    background-color: #171923;
     padding: 20px 30px;
     border-radius: 8px;
 }
